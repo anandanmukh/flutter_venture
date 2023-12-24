@@ -112,6 +112,10 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            Text(
+              'This is a sample line of code',
+              style: Theme.of(context).textTheme.headlineSmall,
+            ),
           ],
         ),
       ),
